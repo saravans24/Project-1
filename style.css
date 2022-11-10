@@ -1,0 +1,170 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
+.list-item ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 50px;
+  font-family: "Orbitron", Helvetica, sans-serif;
+}
+
+.list-item:nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: 800;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid;
+}
+
+.list-item:nth-child(1):hover{
+  font-weight: normal;
+}
+
+.list-item ul li:hover {
+  border-bottom: 1px solid;
+  /* width: 30px; */
+  font-weight: bold;
+  font-weight: 800;
+
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-button {
+  border: 1px solid;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.hero-container {
+  display: flex;
+  position: relative;
+  gap: 30px;
+}
+
+.square {
+  position: relative;
+  top: 280px;
+  left: 190px;
+}
+
+.square img {
+  height: 300px;
+  width: 300px;
+}
+
+.globe {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+}
+
+.star {
+  position: absolute;
+  right: 10%;
+}
+
+.globe img,
+.star img {
+  height: 60px;
+}
+
+.star2 {
+  position: absolute;
+  left: 580px;
+  top: 510px;
+}
+
+.star2 img {
+  height: 50px;
+}
+
+.hero {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.hero img {
+  height: 500px;
+  width: 400px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  gap: 35px;
+}
+
+.hero-container-right h1 {
+  font-size: 60px;
+  margin: 0;
+  font-family: "Orbitron", Helvetica, sans-serif;
+  /* flex-wrap: wrap; */
+}
+
+.hero-container-right p {
+  padding: 0px 200px;
+  text-align: center;
+  margin: 50px 50px;
+  color: gray;
+}
+
+.button-email,.button-join{
+  font-family: "Orbitron", Helvetica, sans-serif;
+}
+
+.button-email {
+  border: 1px solid;
+  padding: 3px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.button-join {
+  background-color: black;
+  color: white;
+  padding: 3px 3px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.icon_sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-heading {
+  font-size: 20px;
+  /* margin: 0; */
+  margin-bottom: 15px;
+  color: gray;
+  font-weight: 100;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.icons span img {
+  height: 35px;
+}
